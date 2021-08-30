@@ -5310,4 +5310,4 @@ client.loop.create_task(reminders_function())
 client.loop.create_task(ch_pr())
 
 keep_alive.keep_alive()
-client.run('ODE4NjUxMzA2NjQxMzI2MTIx.YEbKcQ.IFAmRKY2fzVYH85_PkmO0UOPPA0')
+client.run('TOKEN')
