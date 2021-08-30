@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celeste!</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="second.css">
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="index.html"><img = src="images/logo.png" class="logo"></a>
+      <div class="toggle" onclick='toggleMenu()'></div>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a target="_blank" href="https://www.docs.celeste.gq/">Docs</a></li>
+        <li><a href="second.html">Commands</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/oauth2/authorize?client_id=818651306641326121&permissions=8&scope=bot">Invite</a></li>
+        <li><a href="third.html">Contact</a></li>
+      </ul>
+    </header>
+    <div class="desc">
+    <h2>Celeste Commands:</h2>
+    <br> 
+    <p>Celeste is more than just a normal bot, it's a tool ideal for every server. With growing commands, Celeste is the perfect bot for all your needs! From reminders to auto responses, there's nothing Celeste can't do! Check out some commands by hovering over the boxes below!</p>
+    <br>
+    <img = src="images/cmdsicon.png" class="gif" width="200" height="200">
+    <div class="container">
+      <div class="box">
+        <img = src="images/mod.png" class="icon">
+        <div class="text">
+          <h3>Moderation Commands</h3>
+          <p>     </p>
+          <p>Give your server the care it deserves. From kicking, to warning, to temp bans, Celeste has the power to perform any task. Set reminders, snipe and ensnipe messages, and do a lot more with one bot!</p>
+        </div>
+      </div>
+      <div class="box2">
+        <img = src="images/game.png" class="icon">
+        <div class="text2">
+          <h3>Game and Fun Commands</h3>
+          <p>     </p>
+          <p>Relax after a long day, and have fun with Celeste! With games like tic tac toe and battle, and commands like meme, 8ball, shower thoughts, and more, Celeste never gets too boring!</p>
+        </div>
+      </div>
+      <div class="box3">
+        <img = src="images/camera.png" class="icon">
+        <div class="text3">
+          <h3>Image Commands</h3>
+          <p>     </p>
+          <p>Need to edit an image, or need a good laugh? Celeste's image commands do just that! With new images coming every day, you'll always find time to laugh at these fun images!</p>
+        </div>
+      </div>
+    </div>
+
+  <script>
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.toggle');
+      const navigation = document.querySelector('.navigation')
+      menuToggle.classList.toggle('active')
+      navigation.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>

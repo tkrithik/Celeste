@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celeste!</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="third.css">
+  <scipt src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".btn").click(function(){
+        $(".input, .area").val("");
+      });
+    });
+  </script>
+</head>
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="index.html"><img = src="images/logo.png" class="logo"></a>
+      <div class="toggle" onclick='toggleMenu()'></div>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a target="_blank" href="https://www.docs.celeste.gq/">Docs</a></li>
+        <li><a href="second.html">Commands</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/oauth2/authorize?client_id=818651306641326121&permissions=8&scope=bot">Invite</a></li>
+        <li><a href="third.html">Contact</a></li>
+      </ul>
+    </header>
+<div class="gif"><img = src="images/giphy.gif" class="gif" width="200" height="200"></div>
+<div class="container">
+    <p>SUPPORT:</p>
+    
+    <div class="login">
+      <form id="contact-form" method="post" action="contact.php">
+      <input type="text" placeholder="Your Discord Tag" class="input" id="textfield1">
+      <input type="text" placeholder="Your Email Address" class="input" id="textfield2">
+    </div>
+    
+    <div class="subject">
+      <input type="text" placeholder="Subject" class="input" id="textfield3">
+    </div>
+    
+    <div class="msg">
+      <textarea  class="area" placeholder="Leave a Message" id="textfield4"></textarea>
+    </div>
+    
+    <div class="btn" onclick="clearfields();">Send Message</div>
+</div>
+  
+  
+  <div class="social-icons">
+    <div class="facebook">
+      <i class="fab fa-facebook-f"></i>
+    </div>
+    <div class="twitter">
+      <i class="fab fa-twitter"></i>
+    </div>
+    <div class="google">
+      <i class="fab fa-google-plus-g"></i>
+    </div>
+  </div>
+  
+</div>
+  <script>
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.toggle');
+      const navigation = document.querySelector('.navigation')
+      menuToggle.classList.toggle('active')
+      navigation.classList.toggle('active')
+    }
+    function clearfields(){
+     document.getElementById("textfield1").value = "";
+     document.getElementById("textfield2").value = "";
+     document.getElementById("textfield3").value = "";
+     document.getElementById("textfield4").value = "";
+    }
+  </script>
+</body>
+</html>

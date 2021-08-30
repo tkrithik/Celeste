@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celeste!</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="index.html"><img = src="images/logo.png" class="logo"></a>
+      <div class="toggle" onclick='toggleMenu()'></div>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a target="_blank" href="https://www.docs.celeste.gq/">Docs</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/oauth2/authorize?client_id=818651306641326121&permissions=8&scope=bot">Invite</a></li>
+        <li><a href="third.html">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>Celeste!</h2>
+        <p>Hi! Celeste is a powerful and capable Discord bot developed from scratch by Justice! It is a well-built bot that can manage servers, play games, and have fun! From moderation commands to image manipulation, Celeste is capable of performing any task you imagine! With constant updates and new commands, Celeste's abilities continuously grow! Check out some of Celeste's commands below!</p>
+        <br>
+        <br>
+       
+        
+    
+
+         <a href="second.html">Learn More</a>
+            
+    
+
+
+      </div>
+    
+
+      <div class="imgBox">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/image.png"></div>
+            <div class="swiper-slide"><img src="images/image (1).png"></div>
+            <div class="swiper-slide"><img src="images/image (2).png"></div>
+            <div class="swiper-slide"><img src="images/image (3).png"></div>
+            <div class="swiper-slide"><img src="images/image (4).png"></div>
+            <div class="swiper-slide"><img src="images/image (5).png"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <ul class="sci">
+      <li><a href="https://discord.bio/p/justice0364" target="_blank"><img src="images/facebook.png"></a></li>
+      <li><a href="https://discord.gg/JSymVY6GdN" target="_blank"><img src="images/twitter.png"></a></li>
+      <li><a href="https://discord.com/oauth2/authorize?client_id=818651306641326121&permissions=8&scope=bot" target="_blank"><img src="images/instagram.png"></a></li>
+    </ul>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      loop: true,
+    });
+
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.toggle');
+      const navigation = document.querySelector('.navigation')
+      menuToggle.classList.toggle('active')
+      navigation.classList.toggle('active')
+    }
+
+
+    
+  </script>
+</body>
+</html>

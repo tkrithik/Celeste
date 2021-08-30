@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow: auto;
+}
+
+.container {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 0px auto;
+  background: transparent;
+  padding: 0%;
+  overflow: auto;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #261B40;
+}
+
+.container .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #3F007F;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.container .box .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 50%;
+  transition: 0.5s;
+  z-index: 1;
+  background: #3F007F;
+}
+
+.container .text {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  transition-delay: 0.3s;
+  color: #3F007F;
+  background: #3F007F;
+}
+
+.container .box .text:hover {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  font-size: 17px;
+  color: #fff;
+  background: #3F007F;
+}
+
+.container .box:hover .icon {
+  top: -50%;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  background: #3F007F;
+}
+
+.container .box .icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.1s;
+  color: #fff;
+  background: #3F007F;
+}
+
+container .box:hover .icon img {
+  font-size: 40px;
+  background: #3F007F;
+}
+
+.container .box2 {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #3F007F;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.container .box2 .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 50%;
+  transition: 0.5s;
+  z-index: 1;
+  background: #3F007F;
+}
+
+.container .text2 {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  transition-delay: 0.3s;
+  color: #3F007F;
+  background: #3F007F;
+}
+
+.container .box2 .text2:hover {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  font-size: 17px;
+  color: #fff;
+  background: #3F007F;
+}
+
+.container .box2:hover .icon {
+  top: -50%;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  background: #3F007F;
+}
+
+.container .box2 .icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.1s;
+  color: #fff;
+  background: #3F007F;
+}
+
+container .box2:hover .icon img {
+  font-size: 40px;
+  background: #3F007F;
+}
+
+.container .box3 {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #3F007F;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.container .box3 .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 50%;
+  transition: 0.5s;
+  z-index: 1;
+  background: #3F007F;
+}
+
+.container .text3 {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  transition-delay: 0.3s;
+  color: #3F007F;
+  background: #3F007F;
+}
+
+.container .box3 .text3:hover {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  font-size: 17px;
+  color: #fff;
+  background: #3F007F;
+}
+
+.container .box3:hover .icon {
+  top: -50%;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  background: #3F007F;
+}
+
+.container .box3 .icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.1s;
+  color: #fff;
+  background: #3F007F;
+}
+
+container .box3:hover .icon img {
+  font-size: 40px;
+  background: #3F007F;
+}
+
+.desc {
+  margin-top: 2%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+section .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FD27BF;
+  clip-path: circle(70% at right -20%);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+header .logo {
+  position: relative;
+  width: 75px;
+  height: auto;
+  max-width: 150px;
+  margin-left: 0px;
+  background: transparent;
+  z-index: 3;
+}
+
+header .navigation {
+  position: relative;
+  display: flex;
+  background: transparent;
+}
+
+header .navigation li {
+  list-style: none;
+  background: transparent;
+}
+
+header .navigation li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  background: transparent;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 40px;
+  }
+  section {
+    padding: 150px 40px;
+  }
+  .sci {
+    left: 40px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content .textBox,
+  .content .imgBox
+  {
+    max-width: 100%;
+  }
+  .swiper-slide {
+    height: 300px;
+  }
+  header .navigation {
+    display: none;
+  }
+  header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FD27BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  header .navigation li a {
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(images/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  .toggle.active {
+    position: fixed;
+    right: 40px;
+    background: url(images/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
